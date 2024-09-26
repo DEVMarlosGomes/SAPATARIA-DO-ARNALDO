@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sapataria do Arnaldo</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="LOGO.png" type="image/x-icon">
 </head>
 <body>
     <header>
@@ -53,5 +54,15 @@
     <footer>
         <p>&copy; 2024 Sapataria do Arnaldo. Todos os direitos reservados.</p>
     </footer>
+
+    <script>
+        window.onscroll = function() {
+            if ((window.innerHeight + window.scrollY) >= document.body.offsetHeight) {
+                document.querySelector('footer').style.display = 'block'; // Mostra o footer
+            } else {
+                document.querySelector('footer').style.display = 'none'; // Oculta o footer
+            }
+        };
+    </script>
 </body>
 </html>

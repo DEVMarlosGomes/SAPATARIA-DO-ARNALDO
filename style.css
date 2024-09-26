@@ -146,6 +146,7 @@ nav ul li a {
     display: flex;
     justify-content: space-between;
     flex-direction: column;
+    margin-right: 20px;
 }
 
 .miniaturas img {
@@ -267,4 +268,40 @@ input[type=text], select, textarea {
     px
     max-width: 500px;
     height: auto;
+}
+
+/* contato */
+
+/* sobre */
+
+header {
+    display: flex;
+    align-items: flex-start
+    justify-content: space-around;
+    padding: 10px;
+    background-color: #000000;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.logo {
+    width: 60px; /* Ajuste o tamanho conforme necessário */
+    height: auto;
+}
+
+.historia, .valores, .missao, .etica {
+    padding: 30px;
+    background-color: #d4d4d4;
+    margin-right: 30px;
+    margin-left: 30px;
+    border-radius: 3px;
 }

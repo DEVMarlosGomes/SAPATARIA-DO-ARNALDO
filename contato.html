@@ -5,17 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sapataria do Arnaldo</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="LOGO.png" type="image/x-icon">
 </head>
 <body>
     <header>
-        <div class="nome">
-            <h1>Sapataria do Arnaldo</h1>
-        </div>
+        <h2 class="Sapataria do Arnaldo">Sapataria do Arnaldo</h2>
+        <main class="container-row">
+            <div class="LOGO"> <img src="LOGO.png" width="100" height="100" alt=""> </div>
+        </main>
         <nav>
             <ul>
                 <li> <a href="index.html">Home    </a> </li>
-                <li> <a href="#">Produtos </a> </li>
-                <li> <a href="/">Sobre   </a> </li>
+                <li> <a href="produtos.html">Produtos </a> </li>
+                <li> <a href="sobre.html">Sobre   </a> </li>
                 <li> <a href="contato.html">Contato  </a> </li>
             </ul>
         </nav>
@@ -25,13 +27,6 @@
         <h2>Bem-vindo à melhor sapataria da cidade!</h2>
         <p>Confira nossa coleção exclusiva de sapatos para todas as ocasiões.</p>
     </section>
-
-    
-    
-
-    <footer>
-        <p>&copy; 2024 Sapataria do Arnaldo. Todos os direitos reservados.</p>
-    </footer>
 </body>
 </html>
 
@@ -61,3 +56,19 @@
   
     </form>
   </div>
+
+  <footer>
+    <p>&copy; 2024 Sapataria do Arnaldo. Todos os direitos reservados.</p>
+</footer>
+
+<script>
+    window.onscroll = function() {
+        if ((window.innerHeight + window.scrollY) >= document.body.offsetHeight) {
+            document.querySelector('footer').style.display = 'block'; // Mostra o footer
+        } else {
+            document.querySelector('footer').style.display = 'none'; // Oculta o footer
+        }
+    };
+</script>
+</body>
+</html>
