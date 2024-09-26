@@ -1,34 +1,50 @@
-
-
+body {
+    padding: 0%;
+    margin: 0%;
+}
 header {
     display: flex; /* Define o header como um container flex */
     justify-content: space-between; /* Espaça o conteúdo ao longo do eixo principal */
     align-items: center; /* Alinha o conteúdo ao longo do eixo cruzado */
-    padding: 20px;
-    background-color: #333;
-    color: #fff;
+    padding: 35px;
+    margin: 0%;
+    width: 100%;
+    background-color: #000000;
+    color: #f7f7f7;
+}
+
+.bem-vindo{
+    padding: 1%;
+    margin: 0%;
+    background-color: yellow;
 }
 
 
 .nav-menu ul {
     display: flex; /* Define o ul como um container flex */
-    list-style-type: none;
+    list-style-type: fixed;
+    padding: 20px;
+    margin: 1%;
+    width: 9%;
 }
-.nav-menu li {
-    margin: 0 15px;
-}
-
 
 .product-gallery {
     display: flex; /* Define a galeria como um container flex */
     justify-content: space-around; /* Espaça igualmente os itens */
     flex-wrap: wrap; /* Permite que os itens quebrem a linha se necessário */
-    padding: 20px;
+    background-color: rgb(255, 255, 255);
+
+}
+
+.nav-menu li {
+    color: white;
+    margin: 0 40px;
+    list-style: none;
 }
 
 
 .product-card {
-    background-color: #f8f8f8;
+    background-color: #9c9c9c;
     border: 1px solid #ccc;
     padding: 15px;
     margin: 15px;
@@ -47,4 +63,7 @@ footer {
     bottom: 0;
     width: 100%;
 }
+
+
+
 
