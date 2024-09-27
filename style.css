@@ -59,8 +59,8 @@ a:hover{
 .produto {
     text-align: center;
     background-color: white;
-    padding: 20px;
-    border: 1px solid #ddd;
+    padding: 10px;
+    border: 2px solid #ddd;
     width: 30%;
 }
 
